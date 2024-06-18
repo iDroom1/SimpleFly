@@ -1,0 +1,14 @@
+name: SimpleFly
+version: '1.0-SNAPSHOT'
+main: me.idroom1.simplefly.SimpleFly
+api-version: '1.20'
+description: A simple plugin that allows players to fly.
+commands:
+  fly:
+    description: Toggles flying mode.
+    usage: /fly
+    permission: simplefly.fly
+permissions:
+  simplefly.fly:
+    description: Fly permission.
+    default: op
